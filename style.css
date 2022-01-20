@@ -2,7 +2,7 @@
 
 /* variables */
 :root {
-	--primary-color: #5924ed;
+	--primary-color: #478978;
 	--secondary-black: #0d081a;
 	--secondary-gray: #48464b;
 	--body-bg: #efebfa;
@@ -586,6 +586,11 @@ p {
 }
 #stats .all-items .item:nth-child(3) {
 	background-color: #4705fc50;
+	
+}
+#stats .all-items .item:nth-child(4) {
+	background-color: #f39f9fd7;
+	
 }
 @media only screen and (max-width: 768px) {
 	#stats .all-items {
@@ -926,7 +931,7 @@ p {
 
 /* Footer Section */
 #footer {
-	background-color: #311580;
+	background-color: #478978;
 	color: white;
 	padding: 10rem 0 5rem 0;
 }
@@ -1011,7 +1016,7 @@ p {
 /* copyright Section */
 #copyright {
 	padding: 1rem 0;
-	background-color: #221052;
+	background-color: #353535;
 }
 #copyright p {
 	color: white;
