@@ -483,12 +483,10 @@ p {
 	padding: 20px;
 }
 #testimonial .item:nth-of-type(1),
+#testimonial .item:nth-of-type(2),
 #testimonial .item:nth-of-type(3) {
 	flex: 3;
 	transform: scale(0.8);
-}
-#testimonial .item:nth-of-type(2) {
-	flex: 4;
 }
 
 #testimonial .item::after {
@@ -517,8 +515,8 @@ p {
 }
 
 #testimonial .img {
-	width: 80px;
-	height: 80px;
+	width: 170px;
+	height: 170px;
 	border-radius: 50%;
 	overflow: hidden;
 	margin: 0 auto;
@@ -555,6 +553,13 @@ p {
 		gap: 50px;
 	}
 }
+
+.blog-title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
 
 /* Stats Section Style*/
 #stats {
@@ -1027,4 +1032,76 @@ p {
 	#copyright p {
 		text-align: center;
 	}
+}
+
+/*Contenido articulos */
+
+.container-contenedor, article{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+article{
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 40px;
+	box-shadow: -10px 0 20px -30px black;
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+article::before{
+	content: " ";
+	width: 100%;
+	height: 6px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:  #48464b ;
+}
+
+article h1{
+	margin-top: 40px;
+	margin: auto;
+	font-weight: 150px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+article p{
+	margin-top: 20;
+	font-size: 18px;
+	text-align: justify;
+	color: #1A3A3A;
+}
+
+article  blockquote{
+	margin-top: 20;	
+	font-size: 18px;
+	text-align: center;
+	color: #373F51;
+}
+
+article h2{
+	font-size: 22px;
+	font-style: 30px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 150px;
+}
+article h3{
+	font-size: 20px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+article img{
+	width: 100%;
+	margin-top: 20px;
+	
 }
