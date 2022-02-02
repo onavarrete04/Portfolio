@@ -1105,3 +1105,13 @@ article img{
 	margin-top: 20px;
 	
 }
+/* Listas. Nota: Verificar que no dañe el formato de la pagina */
+article ol li {
+	font-size: 22px;
+	font-style: 30px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 150px;
+	margin: 30px;
+}
